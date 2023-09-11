@@ -41,7 +41,7 @@ var S = {
       if (i !== -1) {
         S.UI.simulate(decodeURI(action).substring(i + 3));
       } else {
-       S.UI.simulate('|#countdown 3||祝|最最可爱的小布布|生日快乐！|祝你|幸福健康|前途光明|今天是你来到世界的|7305天|愿你|年年有今日|岁岁有今朝|生日快乐丫！！！|#icon heart|#icon heart-empty|#icon heart');
+       S.UI.simulate('|#countdown 3||祝|最最可爱的小布布|生日快乐！|祝你|幸福健康|前途光明|7305天纪念日|愿你|年年有今日|岁岁有今朝|生日快乐丫！！！|#icon heart|#icon heart-empty|#icon heart');
       }
 
       S.Drawing.loop(function () {
